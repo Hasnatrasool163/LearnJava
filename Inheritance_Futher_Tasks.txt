@@ -1,0 +1,30 @@
+Working on tasks similar to the provided code will help reinforce your understanding of Java's object-oriented programming concepts, array manipulations, and basic data management. Here are three detailed task descriptions that cover various aspects and challenges:
+
+Task 1: Implement a Video Game Library System
+Objective: Create a system to manage a library of video games. Each game should have properties such as title, platform (e.g., PC, PlayStation, Xbox), genre (e.g., Action, RPG, Strategy), and a unique ID. The system should allow adding new games, deleting games, and listing all games. Use arrays to store the games and implement features like search by title and platform.
+
+Key Features to Implement:
+
+Game Class: A class that encapsulates the properties of a video game. Include methods for getting the properties.
+Library System: This class should manage an array of Game objects. It needs to have the capability to add games, delete games (by ID or title), and list all games. Also, implement search functionality to find games by title and platform.
+Menu-Driven Interface: Use the Scanner class to create a simple text-based interface where users can add games, delete games, search for games by title and platform, and list all games.
+Array Management: Implement methods to handle adding and removing games from the array, including resizing the array when needed.
+Task 2: Develop a Simple Banking System
+Objective: Build a simplified banking system that manages bank accounts. Accounts should have information like account number, account holder's name, and balance. The system should enable creating new accounts, depositing money, withdrawing money (with basic validation to prevent overdrawing), and transferring money between accounts.
+
+Key Features to Implement:
+
+Account Class: A class representing a bank account. It should include methods to get account details and perform operations like deposit and withdraw.
+Bank Class: This class manages an array of Account objects. It should allow adding new accounts, deleting accounts, and performing deposits, withdrawals, and transfers by account number.
+Interactive Menu: Create a console interface using the Scanner class for operations like creating accounts, making deposits and withdrawals, transferring money, and viewing account details.
+Handling Dynamic Account Lists: Since accounts can be added and removed, implement logic to dynamically resize the accounts array as needed.
+Task 3: Create a Classroom Grade Book
+Objective: Design a system to manage students' grades in a classroom. Each student record should include details like student ID, name, and an array of grades. The system should offer functionality to add students, remove students, add grades for students, calculate average grades, and list all student records with their average grade.
+
+Key Features to Implement:
+
+Student Class: Represents a student with their ID, name, and grades. Include methods to add grades and calculate the average grade.
+Classroom Class: Manages an array of Student objects. Implement methods to add and remove students, add grades to a student by ID, calculate average grades for each student, and list all students with their average grades.
+Command-Line Interface: Use Scanner for input to navigate through options like adding/removing students, adding grades, and viewing all student records with averages.
+Grade Array Management: Each student will have an array of grades. Implement logic to dynamically handle adding grades, including resizing the grades array as necessary.
+For each task, start by defining the classes and methods you'll need, considering how they interact with each other. Implement the features step-by-step, testing each one thoroughly before moving on. This approach helps build a solid understanding of Java's capabilities and object-oriented design principles.
